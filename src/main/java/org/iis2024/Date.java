@@ -79,7 +79,7 @@ public class Date {
 
     try {
       dateFormat.parse(dateString);
-      return (year >= 1900) && (year <= 2050);
+      return (year >= 1800) && (year <= 2070);
     } catch (ParseException e) {
       return false;
     }
